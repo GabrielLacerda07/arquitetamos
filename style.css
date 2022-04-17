@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 60px 0;
+}
+.container{
+    padding: 0;
+}
+body{
+    background: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    padding: 0;
+    width: 100%;
+}
+/*header*/
+#nav-header{
+    background-color: #2A1B0A;
+    color: white;
+}
+.link-header{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.link-header:hover{
+    color: #F5F6CE;
+}
+a.navbar-brand{
+    padding-left: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+/*Home*/
+#arq-home{
+    text-align: center;
+    background-image: url('img/arq9.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    font-size: 16px;
+}
+#arq-home h1{
+    font-family: 'Playfair Display', serif;
+    padding-top: 300px;
+    z-index: 100;
+    font-size: 48px;
+    padding-bottom: 25px;
+    transition: 0.3s;
+}
+/*Sobre*/
+.main-title{
+    font-size: 44px;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 42px 0;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #2A1B0A;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.sobre-futurista{
+    padding-bottom: 60px;
+}
+.img-sobre{
+    padding-bottom: 40px;
+}
+#title-sobre{
+    margin-bottom: 25px;
+    color: #2A1B0A;
+}
+.check{
+    padding: 0;
+}
+.check li{
+    list-style-type: none;
+    padding: 4px 0;
+}
+.check i{
+    color: #65DAF9; 
+    margin-right: 10px;
+}
+/*Especialidades*/
+#especialidades{
+    text-align: center;
+}
+#especialidades i{
+    font-size: 42px;
+    padding-bottom: 15px;
+}
+#especialidades h4{
+    padding-bottom: 15px;
+}
+#especialidades .col-md-4{
+    padding-bottom: 35px;
+}
+.especialidade{
+    color: #2A1B0A;
+    transition: 0.5s;
+}
+.especialidade:hover{
+    color: #8A2908;
+}
