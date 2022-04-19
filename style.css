@@ -67,6 +67,7 @@ a.navbar-brand{
     font-family: Roboto, 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 42px 0;
+    color: #2A1B0A;
 }
 .main-title::after {
     content: "";
@@ -121,12 +122,29 @@ a.navbar-brand{
 /*data*/
 #data{
     text-align: center;
-    background-image: url('img/arq9.jpg');
+    background: url('img/arq03.png') fixed;
     height: 40vh;
+    color: white;
 }
 #data .col-md-3{
     margin: auto;
 }
 #data .col-md-3 span{
     font-size: 45px;
+}
+/**/
+#team{
+    text-align: center;
+}
+#team h6{
+    font-size: 24px;
+    color: #2A1B0A;
+}
+#team p{
+    font-size: 14px;
+    color: rgb(72, 72, 72);
+}
+/*trabalho*/
+#trabalho{
+    height: 100px;
 }
