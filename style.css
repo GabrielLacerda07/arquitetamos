@@ -44,13 +44,14 @@ a.navbar-brand{
 /*Home*/
 #arq-home{
     text-align: center;
-    background-image: url('img/arq9.jpg');
+    background-image: url('img/arq01.png');
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     width: 100%;
     z-index: 5;
     font-size: 16px;
+    color: #F5F6CE;
 }
 #arq-home h1{
     font-family: 'Playfair Display', serif;
@@ -116,4 +117,16 @@ a.navbar-brand{
 }
 .especialidade:hover{
     color: #8A2908;
+}
+/*data*/
+#data{
+    text-align: center;
+    background-image: url('img/arq9.jpg');
+    height: 40vh;
+}
+#data .col-md-3{
+    margin: auto;
+}
+#data .col-md-3 span{
+    font-size: 45px;
 }
