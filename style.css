@@ -147,4 +147,44 @@ a.navbar-brand{
 /*trabalho*/
 #trabalho{
     height: 100px;
+    text-align: center;
+}
+.btn-jobs{
+    color: #2A1B0A;
+    border: 1px solid #8A2908;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px 40px 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 30px;
+
+}
+.btn-jobs.active{
+    color: #FFF;
+    border: 1px solid #8A2908;
+    background-color: #8A2908;
+}
+#trabalho img{
+    margin: 15px;
+}
+#trabalho .col-md-4{
+    transition: 0.5s;
+}
+.esconde{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+#imgs-filter-jobs{
+    padding: 20px 0;
+}
+/*Orçamento*/
+#orcamento{
+    background-color: #65DAF9;
+    height: 35vh;
 }

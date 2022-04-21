@@ -18,9 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-
-
-
+    <!--Script JS-->
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -199,10 +198,35 @@
         <!--Nossos trabalhos-->
         <div id="trabalho" class="container">
             <div class="col-12">
-                <h2 class="main-title">Nossos trabalhos</h2>
+                <h2 class="main-title">Conheça nossos trabalhos</h2>
+            </div>
+            <div class="col-md-12">
+                <button class="btn-jobs active" id="all-btn">Todos</button>
+                <button class="btn-jobs" id="arq-btn">Arquitetura</button>
+                <button class="btn-jobs" id="eng-btn">Engenharia</button>
+                <button class="btn-jobs" id="dev-btn">Desenvolvedor</button>
+            </div>
+            <div id="imgs-filter-jobs" class="row">
+                <div id="dev-1" class="col-md-4">
+                    <img src="img/proj1.jpg" class="img-fluid img-jobs dev" alt="">
+                </div>
+                <div id="eng-1" class="col-md-4">
+                    <img src="img/proj2.jpg" class="img-fluid img-jobs eng" alt="">
+                </div>
+                <div id="eng-2" class="col-md-4">
+                    <img src="img/proj3.jpg" class="img-fluid img-jobs eng" alt="">
+                </div>
+                <div id="arq-1" class="col-md-4">
+                    <img src="img/proj4.jpg" class="img-fluid img-jobs arq" alt="">
+                </div>
+                <div id="arq-2" class="col-md-4">
+                    <img src="img/proj5.jpg" class="img-fluid img-jobs arq" alt="">
+                </div>
+                <div id="dev-2" class="col-md-4">
+                    <img src="img/proj6.jpg" class="img-fluid img-jobs dev" alt="">
+                </div>
             </div>
         </div>
-        
     </main>
 
 </body>
