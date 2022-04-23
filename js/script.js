@@ -1,3 +1,5 @@
+//Inicio filtro trabalho
+
 //Selecionando os botões de filtro
 let btnFilter = document.querySelectorAll('.btn-jobs')
 //Selecionando cada div que contém as imagens
@@ -51,7 +53,6 @@ btnFilter[1].addEventListener("click", () => {
         dev1.classList.add('esconde')
         dev2.classList.add('esconde')
     }
-    
 })
 //Adicionando um evento de click no botão "Engenharia" 
 btnFilter[2].addEventListener("click", () => {
@@ -97,7 +98,7 @@ btnFilter[3].addEventListener("click", () => {
         arq2.classList.add('esconde')
         eng1.classList.add('esconde')
         eng2.classList.add('esconde')
-        
     }
-    
 })
+
+//Fim filtro trabalho

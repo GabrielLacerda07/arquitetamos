@@ -197,15 +197,20 @@
         <!--End team-->
         <!--Nossos trabalhos-->
         <div id="trabalho" class="container">
-            <div class="col-12">
-                <h2 class="main-title">Conheça nossos trabalhos</h2>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="main-title">Conheça nossos trabalhos</h2>
+                </div>
             </div>
-            <div class="col-md-12">
-                <button class="btn-jobs active" id="all-btn">Todos</button>
-                <button class="btn-jobs" id="arq-btn">Arquitetura</button>
-                <button class="btn-jobs" id="eng-btn">Engenharia</button>
-                <button class="btn-jobs" id="dev-btn">Desenvolvedor</button>
+            <div class="row">
+                <div class="col-12 btns">
+                    <button class="btn-jobs active" id="all-btn">Todos</button>
+                    <button class="btn-jobs" id="arq-btn">Arquitetura</button>
+                    <button class="btn-jobs" id="eng-btn">Engenharia</button>
+                    <button class="btn-jobs" id="dev-btn">Desenvolvedor</button>
+                </div>
             </div>
+            
             <div id="imgs-filter-jobs" class="row">
                 <div id="dev-1" class="col-md-4">
                     <img src="img/proj1.jpg" class="img-fluid img-jobs dev" alt="">
@@ -226,8 +231,52 @@
                     <img src="img/proj6.jpg" class="img-fluid img-jobs dev" alt="">
                 </div>
             </div>
+            
         </div>
+        <div id="orcar" class="container-fluid">
+            <p>Deseja fazer um orçamento sem compromisso? <button>Orçar</button></p>
+        </div>
+        
     </main>
+    <footer>
+        <div id="contato" class="container">
+            <div class="col-12">
+                <h2 class="main-title">Entre em contato conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa-solid fa-phone"></i>
+                    <p> <span>Ligue para:</span> (82)99999-9999</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p> <span>Envie um email para:</span> contato@arquitetamos.com.br</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p> <span>Venha nos conhecer:</span> Rua Lorem, Cidade Ipsum - AL</p>
+                </div>
+            </div>
+        </div>
+        <div id="email" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Nos envie uma mensagem:</h3> 
+                    <div class="blob"></div>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formsubmit.co/gabriellacerdacosta07@gmail.com" method="POST">
+                        <label for="name-form">Nome:</label>
+                        <input type="text" name="name-form" required>
+                        <label for="email-form">Email:</label>
+                        <input type="email" id="email-form" required>
+
+                        <button type="submit">Send</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
