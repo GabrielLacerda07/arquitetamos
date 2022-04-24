@@ -234,18 +234,17 @@ a.navbar-brand{
     color: #2A1B0A;
     font-weight: 700;
 }
-/*email*/
+/*Email*/
 #email{
-    padding-top: 60px;
+    padding: 60px 0;
     color: #2A1B0A;
-}
-#email h3{
-    padding-bottom: 50px;
+    text-align: center;
 }
 #email .blob{
+    margin: 50px auto;
     overflow: hidden;
-    width: 16rem;
-    height: 16rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
     background: rgb(138,41,8);
     background: linear-gradient(90deg, rgba(138,41,8,1) 0%, rgba(227,65,10,1) 50%, rgba(251,192,41,1) 100%);
@@ -264,4 +263,51 @@ a.navbar-brand{
     66%{
         border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
     }
+}
+#email .itens-form{
+    outline: none;
+    width: 82%;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+#email input{
+    height: 35px;
+}
+#email button{
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #2A1B0A;
+    background-color: #2A1B0A;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+#email button:hover{
+    background-color: #fff;
+    color: #2A1B0A;
+    border: 1px solid #2A1B0A;
+}
+/*Rodapé*/
+#rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    color: rgb(118, 118, 118);
+}
+#rodape p{
+    padding: 15px 0;
+    margin: 0;
+}
+#rodape a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
 }
