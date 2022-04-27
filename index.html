@@ -22,7 +22,24 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <header>
+    <header id="header">
+        <a id="logo" class="navbar-brand link-header" href="index.html"> 
+            <i class="fa-solid fa-house-chimney"></i>
+            Arquitetamos
+        </a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a class="link-header" id="" href="#arq-home"><span>Home</span></span></a></li>
+            <li><a class="link-header" id="" href="#sobre-nos"><span>Sobre nós</span></a></li>
+            <li><a class="link-header" id="" href="#especialidades"><span>Especialidades</span></a></li>
+            <li><a class="link-header" id="" href="#trabalho"><span>Trabalhos</span></a></li>
+            <li><a class="link-header" id="" href="#contato"><span>Contato</span></a></li>
+          </ul>
+        </nav>
+        <!--
         <div class="container" id="nav-container">
             <nav id="nav-header" class="navbar navbar-expand-md fixed-top navbar-dark">
 
@@ -35,17 +52,16 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                    <a class="link-header" id="" href="#">Home</span></a>
-                    <a class="link-header" id="" href="#">A agência</a>
-                    <a class="link-header" id="" href="#">Serviços</a>
-                    <a class="link-header" id="" href="#">Time</a>
-                    <a class="link-header" id="" href="#">Projetos</a>
-                    <a class="link-header" id="" href="#">Contato</a>
-                </div>
+                    <div class="navbar-nav">
+                        <a class="link-header" id="" href="#arq-home"><span>Home</span></span></a>
+                        <a class="link-header" id="" href="#sobre-nos"><span>Sobre nós</span></a>
+                        <a class="link-header" id="" href="#especialidades"><span>Especialidades</span></a>
+                        <a class="link-header" id="" href="#trabalho"><span>Trabalhos</span></a>
+                        <a class="link-header" id="" href="#contato"><span>Contato</span></a>
+                    </div>
                 </div>
             </nav>
-        </div>
+        </div>-->
     </header>
     <main>
         <!--Start Home-->
@@ -57,11 +73,11 @@
         <!--Start Sobre-->
         <div class="container">
             <!--Start Sobre-->
-            <div class="row">
+            <div class="row" id="sobre-nos">
                 <div class="col-12">
                     <h2 class="main-title">Sobre o Arquitetamos</h2>
                 </div>
-                <div class="row  sobre-futurista">
+                <div class="row sobre-futurista">
                     <div class="col-md-6 img-sobre">
                         <img src="img/sobre-arq.jpg" class="img-fluid" alt="">
                     </div>
