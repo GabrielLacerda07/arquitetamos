@@ -102,3 +102,17 @@ btnFilter[3].addEventListener("click", () => {
 })
 
 //Fim filtro trabalho
+
+//header btn
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(event) {
+  //Se o evento acionado foi o touchstart para o evento
+  if (event.type === 'touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+}
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
