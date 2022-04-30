@@ -365,10 +365,6 @@ body{
 
 /*media queries*/
 @media (max-width: 481px) {
-    #imgs-filter-jobs .col-md-4{
-        width: 341px;
-    }
-    
 }
 @media (max-width: 768px) {
     #logo{
@@ -439,4 +435,7 @@ body{
     #email .itens-form{
         margin-top: 15px;
     }
+    #imgs-filter-jobs .col-md-4 img{
+        width: 321px;
+    } 
   }
