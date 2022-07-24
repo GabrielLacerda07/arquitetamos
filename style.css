@@ -382,6 +382,9 @@ body{
     color: #FFF;
     background-color: #2A1B0A;
 }
+.visible:hover{
+    color: rgba(255, 255, 255, 0.787);
+}
 /*media queries*/
 @media (max-width: 481px) {
 }
