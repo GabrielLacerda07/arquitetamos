@@ -116,3 +116,13 @@ function toggleMenu(event) {
 }
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+const backToTop = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', ()=>{
+    if(window.scrollY > 67){
+        backToTop.classList.add('visible');
+    }else{
+        backToTop.classList.remove('visible');
+    }
+})

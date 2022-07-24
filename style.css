@@ -361,8 +361,27 @@ body{
     text-decoration: none;
     color: rgb(144, 144, 144);
 }
-
-
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+.visible{
+    transition: 500ms;
+    color: #FFF;
+    background-color: #2A1B0A;
+}
 /*media queries*/
 @media (max-width: 481px) {
 }
